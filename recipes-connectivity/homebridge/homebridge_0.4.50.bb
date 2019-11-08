@@ -18,6 +18,8 @@ NPM_LOCKDOWN := "${THISDIR}/${PN}/lockdown.json"
 
 S = "${WORKDIR}/npmpkg"
 
+RDEPENDS_${PN} += " homebridge-config-ui-x"
+
 do_install_append() {
 
 	install -d ${D}/home/root/.homebridge/

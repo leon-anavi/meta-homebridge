@@ -16,5 +16,16 @@
   ],
 
   "platforms": [
+    {
+      "name": "Config",
+      "port": 8080,
+      "auth": "form",
+      "restart": "systemctl restart homebridge",
+      "sudo": false,
+      "log": {
+        "method": "systemd"
+      },
+      "platform": "config"
+    }
   ]
 }
