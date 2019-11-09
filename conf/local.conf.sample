@@ -273,10 +273,6 @@ VIRTUAL-RUNTIME_init_manager = "systemd"
 DISTRO_FEATURES_BACKFILL_CONSIDERED = "sysvinit"
 VIRTUAL-RUNTIME_initscripts = ""
 
-# Set appropriate hostname for Zero-configuration networking
-# (zeroconf) with avahi-daemon
-hostname_pn-base-files = "homebridge"
-
 # Raspberry Pi configurations
 MACHINE = "raspberrypi4-64"
 ENABLE_UART = "1"
