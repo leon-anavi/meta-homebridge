@@ -1,0 +1,14 @@
+[Unit]
+Description=Rootfs Rezise oneshot
+DefaultDependencies=no
+After=local-fs.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/lib/systemd/scripts/init-resize.sh
+StandardOutput=journal+console
+TimeoutSec=0
+
+[Install]
+WantedBy=multi-user.target
