@@ -1,11 +1,12 @@
-require recipes-core/images/core-image-minimal.bb
+require recipes-graphics/images/core-image-x11.bb
 
 DESCRIPTION = "A small image with Homebridge"
 
 IMAGE_INSTALL_append = " \
-        nodejs nodejs-npm homebridge \
-        nano vim \
-        avahi-daemon \
+	nodejs nodejs-npm homebridge \
+	nano vim \
+	avahi-daemon \
+	openbox xterm surf gedit \
 "
 
 # Add script and systemd service for extending the rootfs
