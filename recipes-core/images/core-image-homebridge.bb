@@ -6,7 +6,7 @@ IMAGE_INSTALL_append = " \
 	nodejs nodejs-npm homebridge \
 	nano vim \
 	avahi-daemon \
-	openbox xterm surf gedit \
+	openbox pcmanfm xterm surf gedit \
 "
 
 # Add script and systemd service for extending the rootfs
