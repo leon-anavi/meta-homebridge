@@ -644,7 +644,7 @@
 </menu>
 
 <applications>
-  <application class="*">
+  <application name="surf">
     <maximized>true</maximized>
     <decor>no</decor>
     <maximized>true</maximized>
