@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Web Browser
+Exec=surf http://127.0.0.1/
+Icon=web-browser
+Type=Application
+Categories=Utility;
