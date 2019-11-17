@@ -1,4 +1,4 @@
-EXTRAPATHS_prepend := "${THISDIR}/file:"
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 SRC_URI += "file://surf.service \
             file://isportbusy.sh \
