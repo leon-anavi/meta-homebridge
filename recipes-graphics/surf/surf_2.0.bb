@@ -5,7 +5,7 @@ SECTION = "x11/graphics"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b57e7f7720307a02d5a6598b00fe3afa"
 
-DEPENDS = "webkitgtk gtk+ gtk+3 glib-2.0"
+DEPENDS = "webkitgtk gtk+3 glib-2.0"
 
 REQUIRED_DISTRO_FEATURES = "x11"
 
@@ -21,6 +21,5 @@ inherit pkgconfig distro_features_check
 TARGET_CC_ARCH += "${LDFLAGS}"
 
 do_install () {
-	install -d ${D}${bindir}
-	install -m 0755 ${S}/surf ${D}${bindir}
+	install -D -m 0755 ${S}/surf ${D}${bindir}/surf
 }
