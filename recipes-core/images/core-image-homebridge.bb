@@ -7,6 +7,7 @@ IMAGE_INSTALL_append = " \
 	nano vim \
 	avahi-daemon \
 	openbox pcmanfm xterm surf gedit \
+	x11vnc \
 "
 
 # Add script and systemd service for extending the rootfs
