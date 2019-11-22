@@ -1,0 +1,13 @@
+[Unit]
+Description=X11VNC
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=x11vnc -bg -rfbport 5900 -skip_lockkeys
+Restart=always
+RestartSec=1
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
