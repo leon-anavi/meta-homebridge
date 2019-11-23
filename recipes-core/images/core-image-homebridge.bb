@@ -10,6 +10,7 @@ IMAGE_INSTALL_append = " \
 	x11vnc \
 	networkmanager networkmanager-nmtui \
 	stalonetray network-manager-applet \
+	udev-extraconf \
 "
 
 # Add script and systemd service for extending the rootfs
