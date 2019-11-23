@@ -8,6 +8,8 @@ IMAGE_INSTALL_append = " \
 	avahi-daemon \
 	openbox pcmanfm xterm surf gedit \
 	x11vnc \
+	networkmanager networkmanager-nmtui \
+	stalonetray network-manager-applet \
 "
 
 # Add script and systemd service for extending the rootfs
