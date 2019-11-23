@@ -2,7 +2,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 # List applications which are included in the custom openbox
 # interface as runtime dependencies
-RDEPENDS_${PN} += " xterm surf gedit"
+RDEPENDS_${PN} += " xterm surf gedit stalonetray network-manager-applet"
 
 # Custom configurations to automatically launche a simple web browser
 # in full screen without any window decoration
