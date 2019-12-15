@@ -12,6 +12,7 @@ IMAGE_INSTALL_append = " \
 	networkmanager networkmanager-nmtui \
 	stalonetray network-manager-applet \
 	udev-extraconf \
+	mosquitto \
 "
 
 # Add script and systemd service for extending the rootfs
