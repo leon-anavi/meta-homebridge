@@ -3,6 +3,8 @@ require recipes-graphics/images/core-image-x11.bb
 DESCRIPTION = "A small image with Homebridge"
 
 IMAGE_INSTALL_append = " \
+	kernel-modules \
+	i2c-tools \
 	nodejs nodejs-npm \
 	homebridge homebridge-myhome-tng \
 	nano vim \
