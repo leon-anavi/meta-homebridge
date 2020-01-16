@@ -269,5 +269,11 @@ CONF_VERSION = "1"
 
 # Raspberry Pi configurations
 MACHINE = "raspberrypi4-64"
+
+# Enable serial output
 ENABLE_UART = "1"
+
+# Enable I2C
 ENABLE_I2C = "1"
+
+IMAGE_FSTYPES += "wic.xz"
