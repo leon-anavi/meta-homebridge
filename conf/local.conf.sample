@@ -275,5 +275,7 @@ ENABLE_UART = "1"
 
 # Enable I2C
 ENABLE_I2C = "1"
+# Autoload I2C kernel driver modules
+KERNEL_MODULE_AUTOLOAD_rpi += "i2c-dev i2c-bcm2708"
 
 IMAGE_FSTYPES += "wic.xz"
