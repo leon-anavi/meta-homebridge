@@ -15,6 +15,7 @@ IMAGE_INSTALL_append = " \
 	stalonetray network-manager-applet \
 	udev-extraconf \
 	mosquitto \
+	python-sysinfodisplay \
 "
 
 # Add script and systemd service for extending the rootfs
