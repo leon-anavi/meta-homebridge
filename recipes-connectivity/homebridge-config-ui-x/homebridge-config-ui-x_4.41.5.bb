@@ -47,11 +47,11 @@ python do_unpack_append() {
 # Remove arm64 node_modules prebuilt binaries for arm target archtectures
 python do_unpack_append_arm() {
     import shutil
-    shutil.rmtree(oe.path.join(d.getVar("S"), "node_modules/node-pty-prebuilt-multiarch/prebuilds/linux-arm64"))
+    shutil.rmtree(oe.path.join(d.getVar('S'), 'node_modules/node-pty-prebuilt-multiarch/prebuilds/linux-arm64'))
 }
 
 # Remove arm node_modules prebuilt binaries for arm64 target architectures
 python do_unpack_append_aarch64() {
     import shutil
-    shutil.rmtree(oe.path.join(d.getVar("S"), "node_modules/node-pty-prebuilt-multiarch/prebuilds/linux-arm"))
+    shutil.rmtree(oe.path.join(d.getVar('S'), 'node_modules/node-pty-prebuilt-multiarch/prebuilds/linux-arm'))
 }
