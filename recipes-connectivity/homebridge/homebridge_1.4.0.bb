@@ -8,17 +8,23 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=34f8c1142fd6208a8be89399cb521df9"
 
 inherit npm systemd
 
-SRC_URI = "npm://registry.npmjs.org;name=${BPN};version=${PV} \
+SRC_URI = " \
+	npm://registry.npmjs.org/;package=homebridge;version=${PV} \
+	npmsw://${THISDIR}/${BPN}/npm-shrinkwrap.json \
 	file://config.json \
 	file://homebridge \
 	file://homebridge.service \
 	"
-NPM_SHRINKWRAP := "${THISDIR}/${PN}/npm-shrinkwrap.json"
-NPM_LOCKDOWN := "${THISDIR}/${PN}/lockdown.json"
 
-S = "${WORKDIR}/npmpkg"
+S = "${WORKDIR}/npm"
 
 RDEPENDS_${PN} += " homebridge-config-ui-x"
+
+# Remove test binaries from build (compiled in x86)
+python do_unpack_append() {
+    import shutil
+    shutil.rmtree(oe.path.join(d.getVar('S'), 'node_modules/put/test'))
+}
 
 do_install_append() {
 
