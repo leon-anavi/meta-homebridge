@@ -8,8 +8,9 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=c48871b9a5796b2db0663fa5cfe5d8e0"
 
 inherit npm
 
-SRC_URI = "npm://registry.npmjs.org;name=${BPN};version=${PV}"
-NPM_SHRINKWRAP := "${THISDIR}/${PN}/npm-shrinkwrap.json"
-NPM_LOCKDOWN := "${THISDIR}/${PN}/lockdown.json"
+SRC_URI = " \
+    npm://registry.npmjs.org/;package=homebridge-myhome-tng;version=${PV} \
+    npmsw://${THISDIR}/${BPN}/npm-shrinkwrap.json \
+    "
 
-S = "${WORKDIR}/npmpkg"
+S = "${WORKDIR}/npm"
