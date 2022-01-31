@@ -1,6 +1,6 @@
 {
   "name": "homebridge-config-ui-x",
-  "version": "4.41.5",
+  "version": "4.42.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -214,9 +214,9 @@
       },
       "dependencies": {
         "@types/node": {
-          "version": "17.0.10",
-          "resolved": "https://registry.npmjs.org/@types/node/-/node-17.0.10.tgz",
-          "integrity": "sha512-S/3xB4KzyFxYGCppyDt68yzBU9ysL88lSdIah4D6cptdcltc4NCPCAMc0+PCpg/lLIyC7IPvj2Z52OJWeIUkog=="
+          "version": "17.0.13",
+          "resolved": "https://registry.npmjs.org/@types/node/-/node-17.0.13.tgz",
+          "integrity": "sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw=="
         }
       }
     },
@@ -874,9 +874,9 @@
       },
       "dependencies": {
         "@types/node": {
-          "version": "17.0.10",
-          "resolved": "https://registry.npmjs.org/@types/node/-/node-17.0.10.tgz",
-          "integrity": "sha512-S/3xB4KzyFxYGCppyDt68yzBU9ysL88lSdIah4D6cptdcltc4NCPCAMc0+PCpg/lLIyC7IPvj2Z52OJWeIUkog=="
+          "version": "17.0.13",
+          "resolved": "https://registry.npmjs.org/@types/node/-/node-17.0.13.tgz",
+          "integrity": "sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw=="
         }
       }
     },
@@ -1004,9 +1004,9 @@
       }
     },
     "fastify-plugin": {
-      "version": "3.0.0",
-      "resolved": "https://registry.npmjs.org/fastify-plugin/-/fastify-plugin-3.0.0.tgz",
-      "integrity": "sha512-ZdCvKEEd92DNLps5n0v231Bha8bkz1DjnPP/aEz37rz/q42Z5JVLmgnqR4DYuNn3NXAO3IDCPyRvgvxtJ4Ym4w=="
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/fastify-plugin/-/fastify-plugin-3.0.1.tgz",
+      "integrity": "sha512-qKcDXmuZadJqdTm6vlCqioEbyewF60b/0LOFCcYN1B6BIZGlYJumWWOYs70SFYLDAH4YqdE1cxH/RKMG7rFxgA=="
     },
     "fastify-static": {
       "version": "4.5.0",
@@ -1248,9 +1248,9 @@
       "integrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA=="
     },
     "inflection": {
-      "version": "1.13.1",
-      "resolved": "https://registry.npmjs.org/inflection/-/inflection-1.13.1.tgz",
-      "integrity": "sha512-dldYtl2WlN0QDkIDtg8+xFwOS2Tbmp12t1cHa5/YClU6ZQjTFm7B66UcVbh9NQB+HvT5BAd2t5+yKsBkw5pcqA=="
+      "version": "1.13.2",
+      "resolved": "https://registry.npmjs.org/inflection/-/inflection-1.13.2.tgz",
+      "integrity": "sha512-cmZlljCRTBFouT8UzMzrGcVEvkv6D/wBdcdKG7J1QH5cXjtU75Dm+P27v9EKu/Y43UYyCJd1WC4zLebRrC8NBw=="
     },
     "inflight": {
       "version": "1.0.6",
@@ -1455,9 +1455,9 @@
       "integrity": "sha1-wuep93IJTe6dNCAq6KzORoeHVYA="
     },
     "libphonenumber-js": {
-      "version": "1.9.44",
-      "resolved": "https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.9.44.tgz",
-      "integrity": "sha512-zhw8nUMJuQf7jG1dZfEOKKOS6M3QYIv3HnvB/vGohNd0QfxIQcObH3a6Y6s350H+9xgBeOXClOJkS0hJ0yvS3g=="
+      "version": "1.9.46",
+      "resolved": "https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.9.46.tgz",
+      "integrity": "sha512-QqTX4UVsGy24njtCgLRspiKpxfRniRBZE/P+d0vQXuYWQ+hwDS6X0ouo0O/SRyf7bhhMCE71b6vAvLMtY5PfEw=="
     },
     "light-my-request": {
       "version": "4.6.0",

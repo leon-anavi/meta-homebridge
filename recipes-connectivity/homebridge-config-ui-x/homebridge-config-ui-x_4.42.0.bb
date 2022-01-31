@@ -4,7 +4,7 @@ HOMEPAGE = "https://github.com/oznu/homebridge-config-ui-x"
 SECTION = "Applications/Internet"
 
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=00fb6de61c1c297ddbef0e1baa47427d"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=376404cca9e4ef504ea08f648aacde23"
 
 SRC_URI = " \
     npm://registry.npmjs.org/;package=homebridge-config-ui-x;version=${PV} \
